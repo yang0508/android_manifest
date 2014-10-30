@@ -394,7 +394,6 @@
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
-  <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
@@ -489,4 +488,5 @@
   <project path="frameworks/opt/telephony" name="yang0508/frameworks_opt_telephony"/>
   <project path="packages/apps/Mms" name="yang0508/packages_apps_Mms" />
   <project path="packages/apps/Settings" name="yang0508/packages_apps_Settings" />
+  <project path="packages/services/Telephony" name="yang0508/packages_services_Telephony" />
 </manifest>
