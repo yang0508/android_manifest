@@ -465,7 +465,6 @@
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="github" revision="cm-11.0" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" remote="github" revision="cm-11.0" />
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
-  <project path="external/vim" name="CyanogenMod/android_external_vim" remote="github" revision="cm-11.0" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
