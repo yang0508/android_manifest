@@ -466,9 +466,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="device/samsung/i9300" name="AOSPA-legacy/android_device_samsung_i9300" remote="github" revision="kitkat"/>
-  <project path="device/samsung/smdk4412-common" name="AOSPA-legacy/android_device_samsung_smdk4412-common" remote="github" revision="kitkat" />
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/i9300" name="yang0508/device_samsung_i9300" remote="github" revision="pa"/>
+  <project path="device/samsung/smdk4412-common" name="yang0508/device_samsung_smdk4412-common" remote="github" revision="pa" />
+  <project path="hardware/samsung" name="yang0508/hardware_samsung" remote="github" revision="pa" />
   <project path="kernel/samsung/smdk4412" name="yang0508/kernel_samsung_smdk4412" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
   <project path="vendor/samsung" name="yang0508/vendor_samsung" remote="github" revision="pa" />
