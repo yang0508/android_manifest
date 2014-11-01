@@ -261,7 +261,6 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="frameworks/base" name="AOSPA-legacy/android_frameworks_base" remote="github" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -281,7 +280,6 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="AOSPA-legacy/android_frameworks_opt_telephony" remote="github" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/telephony-msim" name="AOSPA-legacy/android_frameworks_opt_telephony-msim" remote="github" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
@@ -376,7 +374,6 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="AOSPA-legacy/android_packages_services_Telephony" remote="github" revision="kitkat" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -457,19 +454,37 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="kitkat" >
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-11.0" />
+  <project path="external/htop" name="CyanogenMod/android_external_htop" remote="github" revision="cm-11.0" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-11.0" />
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-11.0" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="cm-11.0" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="cm-11.0" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" revision="cm-11.0" />
+  <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="github" revision="cm-11.0" />
+  <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="github" revision="cm-11.0" />
+  <project path="external/vim" name="CyanogenMod/android_external_vim" remote="github" revision="cm-11.0" />
+  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
+  <project path="external/vim" name="CyanogenMod/android_external_vim" remote="github" revision="cm-11.0" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
+
+  <project path="vendor/pa" name="yang0508/vendor_cm" remote="github" revision="pa" >
     <copyfile src="build.sh" dest="rom-build.sh" />
     <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
   </project>
 
-  <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
+  <project path="build" name="yang0508/android_build" remote="github" revision="pa" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="device/samsung/i9300" name="yang0508/device_samsung_i9300" remote="github" revision="pa"/>
   <project path="device/samsung/smdk4412-common" name="yang0508/device_samsung_smdk4412-common" remote="github" revision="pa" />
+  <project path="frameworks/base" name="yang0508/frameworks_base" remote="github" revision="pa" />
+  <project path="frameworks/opt/telephony" name="yang0508/frameworks_opt_telephony" remote="github" revision="pa" />
   <project path="hardware/samsung" name="yang0508/hardware_samsung" remote="github" revision="pa" />
   <project path="kernel/samsung/smdk4412" name="yang0508/kernel_samsung_smdk4412" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
+  <project path="packages/services/Telephony" name="yang0508/packages_services_Telephony" remote="github" revision="pa" />
   <project path="vendor/samsung" name="yang0508/vendor_samsung" remote="github" revision="pa" />
 </manifest>
