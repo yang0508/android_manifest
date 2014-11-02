@@ -310,7 +310,6 @@
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="CyanogenMod/android_packages_apps_OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
@@ -414,6 +413,7 @@
   <project path="frameworks/opt/telephony" name="yang0508/frameworks_opt_telephony" />
   <project path="hardware/samsung" name="yang0508/hardware_samsung" />
   <project path="kernel/samsung/smdk4412" name="yang0508/kernel_samsung_smdk4412" />
+  <project path="packages/apps/Phone" name="yang0508/packages_apps_Phone" />
   <project path="vendor/cm" name="yang0508/vendor_cm" />
   <project path="vendor/samsung" name="yang0508/vendor_samsung" />
 
