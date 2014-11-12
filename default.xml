@@ -470,23 +470,23 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
-
-  <project path="hardware/samsung" name="yang0508/hardware_samsung" />
-  <project path="device/samsung/i9300" name="yang0508/device_samsung_i9300" />
-  <project path="device/samsung/smdk4412-common" name="yang0508/device_samsung_smdk4412-common" />
   <project path="kernel/samsung/smdk4412" name="yang0508/kernel_samsung_smdk4412" />
 
-  <project path="vendor/cm" name="yang0508/vendor_cm" />
-  <project path="vendor/samsung" name="yang0508/vendor_samsung" />
-
-  <project path="build" name="yang0508/android_build" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
-  <project path="frameworks/base" name="yang0508/frameworks_base" />
-  <project path="frameworks/opt/telephony" name="yang0508/frameworks_opt_telephony"/>
   <project path="packages/apps/LockClock" name="yang0508/packages_apps_LockClock" />
   <project path="packages/apps/Mms" name="yang0508/packages_apps_Mms" />
   <project path="packages/apps/Settings" name="yang0508/packages_apps_Settings" />
   <project path="packages/services/Telephony" name="yang0508/packages_services_Telephony" />
+
+  <project path="build" name="yang0508/android_build" revision="cm-11.0-m440s" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="device/samsung/i9300" name="yang0508/device_samsung_i9300" revision="cm-11.0-m440s" />
+  <project path="device/samsung/smdk4412-common" name="yang0508/device_samsung_smdk4412-common" revision="cm-11.0-m440s" />
+  <project path="frameworks/base" name="yang0508/frameworks_base" revision="cm-11.0-m440s" />
+  <project path="frameworks/opt/telephony" name="yang0508/frameworks_opt_telephony" revision="cm-11.0-m440s" />
+  <project path="hardware/samsung" name="yang0508/hardware_samsung" revision="cm-11.0-m440s" />
+  <project path="vendor/cm" name="yang0508/vendor_cm" revision="cm-11.0-m440s" />
+  <project path="vendor/samsung" name="yang0508/vendor_samsung" revision="cm-11.0-m440s" />
+
 </manifest>
